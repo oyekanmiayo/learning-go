@@ -1,2 +1,2 @@
 # learning-go
-Simple exercise to help me (re)learn go.
+Simple exercises to help me (re)learn go.
