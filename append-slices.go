@@ -8,7 +8,7 @@ func main() {
 	// To append slices to each other use ... to expand second argument to
 	// a list of arguments
 	a = append(a, b...)
-	fmt.Println(a)
+	printSlice(a)
 
 	var s []int
 	printSlice(s)
@@ -26,6 +26,6 @@ func main() {
 	printSlice(s)
 }
 
-func printSlice(s []int) {
+func printSlice(s interface{}) {
 	fmt.Printf("len=%d cap=%d %v\n", len(s), cap(s), s)
 }
