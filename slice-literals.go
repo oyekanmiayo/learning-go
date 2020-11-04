@@ -29,4 +29,10 @@ func main() {
 		{b: false},
 	}
 	fmt.Println(s)
+
+	var j []int
+	fmt.Println(j, len(j), cap(j))
+
+	a := make([]int, 5)
+	printSlice("a", a)
 }
