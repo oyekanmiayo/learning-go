@@ -15,4 +15,6 @@ func main()  {
 	default:
 		fmt.Printf(" %v.\n", os)
 	}
+
+	fmt.Println(byte('A'))
 }
